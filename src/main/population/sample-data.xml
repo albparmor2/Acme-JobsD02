@@ -155,7 +155,7 @@
  	<property name="name" value="Acme, Inc."/>
  	<property name="sector" value="IT"/>
  	<property name="CEO" value="Carlos Ramos"/>
- 	<property name="activities" value="Portal web de búsqueda de trabajo"/>
+ 	<property name="activities" value="Website to find a work"/>
  	<property name="website" value="http://www.acme-jobs.com"/>
  	<property name="contactPhone" value="+34 (900) 234567"/>
  	<property name="contactEmail" value="carlosrd98@gmail.com"/>
@@ -166,7 +166,7 @@
  	<property name="name" value="Semseo"/>
  	<property name="sector" value="Marketing"/>
  	<property name="CEO" value="Miguel Godino"/>
- 	<property name="activities" value="Empresa líder en marketing y diseño web"/>
+ 	<property name="activities" value="Enterprise leader in marketing"/>
  	<property name="website"><null/></property>
  	<property name="contactPhone" value="+1 (9243) 537744279"/>
  	<property name="contactEmail" value="mgodino@gmail.com"/>
@@ -175,9 +175,9 @@
  
  <bean id="companyrecord03" class="acme.entities.companyRecords.CompanyRecord">
  	<property name="name" value="Mikasa, LLC"/>
- 	<property name="sector" value="Inmobiliario"/>
+ 	<property name="sector" value="Real state agency"/>
  	<property name="CEO" value="Mikasa Ackerman"/>
- 	<property name="activities" value="Venta y alquiler de propiedades en toda Sevilla"/>
+ 	<property name="activities" value="Properties for sale and rent in Seville"/>
  	<property name="website" value="http://www.mikasa.com"/>
  	<property name="contactPhone" value="+34 (9218) 2032244200"/>
  	<property name="contactEmail" value="ackerman@gmail.com"/>
@@ -190,5 +190,7 @@
  	tú has ganado, millón de dolares"/>
  	<property name="threshold" value="1.00"/>
  </bean>
+ 
+  
 
 </beans>
