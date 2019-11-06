@@ -190,5 +190,20 @@
  	tú has ganado, millón de dolares"/>
  	<property name="threshold" value="1.00"/>
  </bean>
+ 
+ <!-- Commercial Banner -->
+ <bean id="commercialBanner01" class="acme.entities.commercialBanners.CommercialBanner">
+ 	<property name="picture" value="https://s3.amazonaws.com/cocacolaunited-old/wp-content/uploads/2018/03/ud_a_pho-life_Coke_original-zero_8oz_Glass-e1535133005617.jpg"/>
+ 	<property name="slogan" value="Amazing slogan!"/>
+ 	<property name="url" value="https://www.cocacola.es/es/home/"/>
+ 	<property name="creditCard" value="4485715860868875"/>
+ </bean>
+ 
+ <bean id="nonCommercialBanner02" class="acme.entities.nonCommercialBanners.NonCommercialBanner">
+ 	<property name="picture" value="https://s3.amazonaws.com/cocacolaunited-old/wp-content/uploads/2018/03/ud_a_pho-life_Coke_original-zero_8oz_Glass-e1535133005617.jpg"/>
+ 	<property name="slogan" value="Amazing slogan!"/>
+ 	<property name="url" value="https://www.cocacola.es/es/home/"/>
+ 	<property name="jingle" value="Despacito"/>
+ </bean>
 
 </beans>
