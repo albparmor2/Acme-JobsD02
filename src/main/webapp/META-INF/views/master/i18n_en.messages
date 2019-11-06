@@ -30,7 +30,9 @@ master.menu.sign-out = Sign out
 master.menu.anonymous = Anonymous
 master.menu.anonymous.announcements = Announcements
 master.menu.anonymous.company-record = Company records
+master.menu.anonymous.company-record-top = Top company records
 master.menu.anonymous.investor-record = Investor records
+master.menu.anonymous.investor-record-top = Top investor records
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated = Authenticated
@@ -47,8 +49,6 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.announcement = Announcements
 master.menu.administrator.costumisation = Costumisation
-master.menu.administrator.commercial-banner = Commercial banners
-master.menu.administrator.non-commercial-banner = Non commercial banners
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.provider ########################################################

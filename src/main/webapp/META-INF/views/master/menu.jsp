@@ -21,7 +21,9 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.announcements" action="/anonymous/announcement/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.company-record" action="/anonymous/company-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.company-record-top" action="/anonymous/company-record-top/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.investor-record" action="/anonymous/investor-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.investor-record-top" action="/anonymous/investor-record-top/list"/>
 		</acme:menu-option>
 
         <acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
@@ -38,8 +40,6 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.announcement" action="/administrator/announcement/list"/>
 			<acme:menu-suboption code="master.menu.administrator.costumisation" action="/administrator/costumisation/list"/>
-			<acme:menu-suboption code="master.menu.administrator.commercial-banner" action="/administrator/commercial-banner/list"/>
-			<acme:menu-suboption code="master.menu.administrator.non-commercial-banner" action="/administrator/non-commercial-banner/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>

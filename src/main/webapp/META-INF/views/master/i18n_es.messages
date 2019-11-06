@@ -29,8 +29,10 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.announcements = Anuncios
-aster.menu.anonymous.company-record = Registro de compañias
+master.menu.anonymous.company-record = Registro de compañias
+master.menu.anonymous.company-record-top = Registro de compañias top
 master.menu.anonymous.investor-record = Registro de inversiones
+master.menu.anonymous.investor-record-top = Registro de inversiones top
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated = Autentificado
@@ -47,8 +49,6 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.announcement = Anuncios
 master.menu.administrator.costumisation = Customización
-master.menu.administrator.commercial-banner = Banners comerciales
-master.menu.administrator.non-commercial-banner = Banners no comerciales
 master.menu.administrator.shutdown = Parar el sistema
 
 # master.menu.provider ########################################################
